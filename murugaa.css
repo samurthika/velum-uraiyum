@@ -1,0 +1,307 @@
+body {
+    background: linear-gradient(135deg,#7c3043 0%,#520307 100%);
+    font-family: 'Noto Sans Tamil', 'Segoe UI', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temple-wrapper {
+    background: rgba(60, 16, 32, 0.9);
+    border: 2px solid #ffd700;
+    border-radius: 28px;
+    box-shadow: 0 0 40px 10px #ffd70055;
+    max-width: 370px;
+    padding: 30px 18px 25px 18px;
+    text-align: center;
+}
+
+.divine-header {
+    font-size: 2.25rem;
+    font-family: 'Baloo Thambi 2', 'Noto Sans Tamil', serif;
+    color: #ffd700;
+    letter-spacing: 2px;
+    text-shadow: 0 0 6px #ffd700, 0 0 16px #7c3043;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.murugaa-area {
+    margin-bottom: 15px;
+}
+
+.murugaa-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 36px 16px #ffd700, 0 0 0 7px #7c3043;
+    border: 2px solid #ffd700;
+    margin-bottom: 13px;
+    transition: box-shadow 0.3s;
+}
+
+.comfort-box {
+    margin: 14px 0 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#feelingBox {
+    border-radius: 18px;
+    border: 1.5px solid #ffd700;
+    background: rgba(255, 215, 0, 0.10);
+    font-size: 1rem;
+    padding: 13px 10px;
+    color: #7c3043;
+    min-height: 62px;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 7px 1px #ffd70055 inset;
+}
+
+#askBtn {
+    background: linear-gradient(90deg,#ffd700 70%,#a03848 100%);
+    color: #7c3043;
+    font-size: 18px;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 8px #ffd70055 inset;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+#askBtn:hover {
+    background: linear-gradient(90deg,#a03848 10%,#ffd700 90%);
+    color: #ffd700;
+    box-shadow: 0 0 12px #ffd70099;
+}
+
+.lamp-container {
+    margin: 10px 0 3px 0;
+}
+
+#lampBtn {
+    background: linear-gradient(90deg,#ffd700, #7c3043);
+    color: #520307;
+    border: none;
+    border-radius: 13px;
+    font-size: 1rem;
+    padding: 6px 11px;
+    margin-top: 7px;
+    box-shadow: 0 0 8px #ffd70099;
+    cursor: pointer;
+}
+
+#lampFlame {
+    margin: 8px auto 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 60% 30%, #ffec99 70%, #ffd700 100%);
+    box-shadow: none;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+#lampFlame.active {
+    opacity: 1;
+    box-shadow: 0 0 36px 18px #ffd70099;
+}
+
+.quote-area {
+    margin-top: 20px;
+    min-height: 70px;
+    font-size: 1.2rem;
+    color: #ffd700;
+    font-family: 'Noto Sans Tamil', serif;
+    text-shadow: 0 0 7px #ffd70088;
+}
+.murugaa img {
+  width: 140px; /* reduce this to make it smaller */
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* full height of screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temple-wrapper {
+  max-width: 370px;
+  padding: 30px 18px 25px 18px;
+  text-align: center;
+}
+.divine-header {
+  font-size: 2.25rem;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+#feelingBox {
+  min-height: 62px;
+  resize: none; /* prevent resizing */
+}
+#askBtn {
+  font-size: 18px;
+  padding: 9px 10px;
+}
+#lampBtn {
+  font-size: 1rem;
+  padding: 6px 11px;
+  margin-top: 7px;
+}
+#lampFlame {
+  margin: 8px auto 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.quote-area {
+  margin-top: 20px;
+  min-height: 70px;
+  font-size: 1.2rem;
+}
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .temple-wrapper {
+    max-width: 90%;
+    padding: 20px 15px 20px 15px;
+  }
+  .divine-header {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
+  .murugaa-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  #feelingBox {
+    font-size: 0.9rem;
+    padding: 10px 8px;
+    min-height: 50px;
+  }
+  #askBtn {
+    font-size: 16px;
+    padding: 8px 9px;
+  }
+  #lampBtn {
+    font-size: 0.9rem;
+    padding: 5px 9px;
+    margin-top: 6px;
+  }
+  #lampFlame {
+    width: 24px;
+    height: 24px;
+    margin: 6px auto 0 auto;
+  }
+  .quote-area {
+    font-size: 1rem;
+    min-height: 60px;
+    margin-top: 15px;
+  }
+}
+.murugaa img {
+  width: 140px; /* reduce this to make it smaller */
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* full height of screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temple-wrapper {
+  max-width: 370px;
+  padding: 30px 18px 25px 18px;
+  text-align: center;
+}
+
+.divine-header {
+  font-size: 2.25rem;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+#feelingBox {
+  min-height: 62px;
+  resize: none; /* prevent resizing */
+}
+#askBtn {
+  font-size: 18px;
+  padding: 9px 10px;
+}
+#lampBtn {
+  font-size: 1rem;
+  padding: 6px 11px;
+  margin-top: 7px;
+}
+#lampFlame {
+  margin: 8px auto 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.quote-area {
+  margin-top: 20px;
+  min-height: 70px;
+  font-size: 1.2rem;
+}
+/* Responsive adjustments */
+.murugaa-img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 400px) {
+  .temple-wrapper {
+    max-width: 90%;
+    padding: 20px 15px 20px 15px;
+  }
+  .divine-header {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
+  .murugaa-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  #feelingBox {
+    font-size: 0.9rem;
+    padding: 10px 8px;
+    min-height: 50px;
+  }
+  #askBtn {
+    font-size: 16px;
+    padding: 8px 9px;
+  }
+  #lampBtn {
+    font-size: 0.9rem;
+    padding: 5px 9px;
+    margin-top: 6px;
+  }
+  #lampFlame {
+    width: 24px;
+    height: 24px;
+    margin: 6px auto 0 auto;
+  }
+  .quote-area {
+    font-size: 1rem;
+    min-height: 60px;
+    margin-top: 15px;
+  }
+}
