@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Velum Uraiyum – A Temple in Every Tab
 
 Velum Uraiyum is a digital sanctuary for those who seek Murugaa’s comfort but can’t reach a temple. Built with love, emotion, and healing intent, this web app lets users share their feelings and receive divine replies from Murugaa—along with wellness tips to soothe the soul.
@@ -33,3 +34,7 @@ https://samurthika.github.io/velum-uraiyum
 Final Note
 
 If the Vel is present, burdens vanish. Murugaa hears you. Peace is near.
+=======
+# velum-uraiyum
+A digital sanctuary for emotional healing and Murugaa’s comfort. Type your feeling, light a lamp, and receive divine replies with wellness tips—no temple visit needed.
+>>>>>>> 6f98222083212af08818d4bf5345774216fc4a19
